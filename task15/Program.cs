@@ -8,16 +8,16 @@
 Console.Write("Введите число от 1 до 7: "); // Вывод в консоль
 int num = Convert.ToInt32(Console.ReadLine()); // Ввод числа
 
-if (num >0 && num < 6)// если
-    {
-        Console.WriteLine("Нет");
-    }
-    
-else if (num == 6 || num == 7 )
-    {
-        Console.WriteLine("Да");
-    }
-else 
-    {
-        Console.WriteLine("Такого дня не существует!");
-    }
+if (num > 0 && num < 6)// если
+{
+    Console.WriteLine("Нет");
+}
+
+else if (num == 6 || num == 7)
+{
+    Console.WriteLine("Да");
+}
+else
+{
+    Console.WriteLine("Такого дня не существует!");
+}

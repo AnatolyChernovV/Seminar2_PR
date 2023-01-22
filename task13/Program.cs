@@ -15,29 +15,29 @@ if (99 < num && num < 1000)
     // num1 = num % 10;
     // num = (num-num1)/10;
     Console.WriteLine(num);
-            
-    
+
+
 }
 else
     if (1000 < num && num < 10000)
-                     {
-                     System.Console.WriteLine("Всё хорошо");
-                     num = num % 100;
-                     num1 = num % 10;
-                     num = (num - num1) / 10;
-                     Console.WriteLine(num);
-                     }
-    else
-        if (10000 < num)
-                     {
-                     System.Console.WriteLine("Всё хорошо");
-                     num = num % 1000;
-                     num1 = num % 100;
-                     num = (num - num1) / 100;
-                     Console.WriteLine(num);
-                     }
+{
+    System.Console.WriteLine("Всё хорошо");
+    num = num % 100;
+    num1 = num % 10;
+    num = (num - num1) / 10;
+    Console.WriteLine(num);
+}
 else
-    {
-        System.Console.WriteLine("третьей цифры нет");
-    }
+        if (10000 < num)
+{
+    System.Console.WriteLine("Всё хорошо");
+    num = num % 1000;
+    num1 = num % 100;
+    num = (num - num1) / 100;
+    Console.WriteLine(num);
+}
+else
+{
+    System.Console.WriteLine("третьей цифры нет");
+}
 

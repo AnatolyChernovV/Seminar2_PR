@@ -8,16 +8,16 @@
 Console.Write("Введите трехзначное число N: "); // Вывод в консоль
 int num = Convert.ToInt32(Console.ReadLine()); // Ввод числа
 int num1 = 0;
-if (99 < num && num < 1000 )
-    {
-        System.Console.WriteLine("Всё хорошо");
-        num = num % 100;
-        num1 = num % 10;
-        num = (num-num1)/10;
-        Console.WriteLine(num);
-    }
+if (99 < num && num < 1000)
+{
+    System.Console.WriteLine("Всё хорошо");
+    num = num % 100;
+    num1 = num % 10;
+    num = (num - num1) / 10;
+    Console.WriteLine(num);
+}
 else
-    {
-        System.Console.WriteLine("Вы ввелти не трехзначное число");
-    }
+{
+    System.Console.WriteLine("Вы ввелти не трехзначное число");
+}
 
